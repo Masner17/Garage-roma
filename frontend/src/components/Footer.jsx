@@ -27,11 +27,11 @@ function Footer() {
         <div className="w-full rounded border border-white/10 bg-[#071117]/85 p-5 shadow-xl backdrop-blur-sm sm:w-auto sm:min-w-[380px]">
           <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#c85b24]">Seguinos y escribinos</p>
           <div className="mt-4 flex flex-col gap-3 sm:flex-row">
-            <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" className="flex items-center gap-3 rounded border border-white/15 px-4 py-3 transition-colors hover:border-[#c85b24] hover:text-[#e27a47]" aria-label="Instagram de El Garage Roma">
-              <InstagramIcon /><span><strong className="block text-xs uppercase tracking-wider">Instagram</strong><small className="text-[#beb59f]">@elgarageroma.uy</small></span>
+            <a href="https://www.instagram.com/garageroma.775?stkn=OWEwY3E1MWM1eGpv" target="_blank" rel="noreferrer" className="flex items-center gap-3 rounded border border-white/15 px-4 py-3 transition-colors hover:border-[#c85b24] hover:text-[#e27a47]" aria-label="Instagram de El Garage Roma">
+              <InstagramIcon /><span><strong className="block text-xs uppercase tracking-wider">Instagram</strong><small className="text-[#beb59f]">@garageroma.775</small></span>
             </a>
-            <a href="https://wa.me/59899123456" target="_blank" rel="noreferrer" className="flex items-center gap-3 rounded border border-white/15 px-4 py-3 transition-colors hover:border-[#c85b24] hover:text-[#e27a47]" aria-label="WhatsApp de El Garage Roma">
-              <WhatsappIcon /><span><strong className="block text-xs uppercase tracking-wider">WhatsApp</strong><small className="text-[#beb59f]">+598 99 123 456</small></span>
+            <a href="https://wa.me/59897094999" target="_blank" rel="noreferrer" className="flex items-center gap-3 rounded border border-white/15 px-4 py-3 transition-colors hover:border-[#c85b24] hover:text-[#e27a47]" aria-label="WhatsApp de El Garage Roma">
+              <WhatsappIcon /><span><strong className="block text-xs uppercase tracking-wider">WhatsApp</strong><small className="text-[#beb59f]">+598 97 094 999</small></span>
             </a>
           </div>
           <p className="mt-4 text-[10px] text-[#9f9786]">© {new Date().getFullYear()} El Garage Roma. Todos los derechos reservados.</p>

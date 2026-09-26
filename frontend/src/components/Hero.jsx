@@ -5,7 +5,7 @@ function Hero() {
   return (
     <section
       id="inicio"
-      className="relative isolate h-[600px] w-full overflow-hidden bg-cover bg-center sm:h-[630px]"
+      className="relative isolate h-[680px] w-full overflow-hidden bg-cover bg-center sm:h-[630px]"
       style={{ backgroundImage: `url(${heroBackground})` }}
     >
       <div className="absolute inset-0 -z-10 bg-black/40" aria-hidden="true" />
@@ -27,23 +27,23 @@ function Hero() {
             sobre dos ruedas.
           </p>
 
-          <div className="mt-8 flex items-center justify-center gap-[14px]">
+          <div className="mt-8 flex w-full flex-col items-center justify-center gap-[14px] sm:w-auto sm:flex-row">
             <a
               href="#club"
-              className="inline-flex h-[52px] items-center whitespace-nowrap rounded-[6px] border-2 border-[#E06A2D] bg-[#C85B24] px-8 [font-family:Montserrat,sans-serif] text-base font-bold text-[#FFF4DF] transition-colors hover:bg-[#D66529] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#E9DFC5]"
+              className="inline-flex h-[52px] w-full max-w-[260px] items-center justify-center whitespace-nowrap rounded-[6px] border-2 border-[#E06A2D] bg-[#C85B24] px-6 [font-family:Montserrat,sans-serif] text-base font-bold text-[#FFF4DF] transition-colors hover:bg-[#D66529] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#E9DFC5] sm:w-auto sm:max-w-none sm:px-8"
             >
               Conocer el club <span aria-hidden="true">→</span>
             </a>
             <a
               href="#ingresar"
-              className="inline-flex h-[52px] items-center whitespace-nowrap rounded-[6px] border-2 border-[#D8CDAF] bg-[rgba(13,21,26,0.78)] px-8 [font-family:Montserrat,sans-serif] text-base font-bold text-[#E9DFC5] transition-colors hover:border-[#C85B24] hover:bg-[rgba(255, 243, 236, 0.15)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#E9DFC5]"
+              className="inline-flex h-[52px] w-full max-w-[260px] items-center justify-center whitespace-nowrap rounded-[6px] border-2 border-[#D8CDAF] bg-[rgba(13,21,26,0.78)] px-6 [font-family:Montserrat,sans-serif] text-base font-bold text-[#E9DFC5] transition-colors hover:border-[#C85B24] hover:bg-[rgba(255,243,236,0.15)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#E9DFC5] sm:w-auto sm:max-w-none sm:px-8"
             >
               Hacete miembro
             </a>
           </div>
         </div>
 
-        <div className="absolute top-[calc(50%+35px)] right-[50px] z-10 hidden min-h-[430px] w-[360px] -translate-y-1/2 rounded-[6px] border border-[rgba(207,197,170,0.20)] bg-[#0D151A]/95 px-[30px] pt-[30px] pb-[26px] shadow-[0_15px_40px_rgba(0,0,0,0.45)] backdrop-blur-[2px] lg:block">
+        <div id="ingresar" className="absolute top-[calc(50%+35px)] right-[50px] z-10 hidden min-h-[430px] w-[360px] -translate-y-1/2 scroll-mt-24 rounded-[6px] border border-[rgba(207,197,170,0.20)] bg-[#0D151A]/95 px-[30px] pt-[30px] pb-[26px] shadow-[0_15px_40px_rgba(0,0,0,0.45)] backdrop-blur-[2px] lg:block">
           <h2 className="[font-family:Montserrat,sans-serif] text-[27px] font-bold leading-none text-[#CFC5AA]">
             Bienvenido
           </h2>

@@ -1,5 +1,3 @@
-import servicesBackground from '../assets/backgroundServiceRank.png'
-
 const services = [
   { icon: '🏍', title: 'Pista de motos Adventure y Enduro' },
   { icon: '⛺', title: 'Zona de cuatriciclos' },
@@ -13,10 +11,8 @@ function ServicesSection() {
   return (
     <section
       id="servicios"
-      className="relative isolate h-full overflow-hidden bg-[#0c171d] bg-cover bg-right py-10 text-[#eee5ce] sm:py-12"
-      style={{ backgroundImage: `url(${servicesBackground})` }}
+      className="relative z-10 h-full py-10 text-[#eee5ce] sm:py-12"
     >
-      <div className="absolute inset-0 -z-10 bg-[#071117]/25" aria-hidden="true" />
       <div className="mx-auto w-full max-w-[900px] px-6 sm:px-10 lg:ml-0 lg:pl-8 xl:pl-12">
         <p className="text-xs font-bold uppercase tracking-[0.22em] text-[#c85b24]">Todo para tu aventura</p>
         <h2 className="mt-1 [font-family:'Roboto_Slab',serif] text-3xl font-black sm:text-4xl">Servicios</h2>

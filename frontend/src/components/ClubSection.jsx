@@ -11,16 +11,14 @@ function ClubSection() {
       className="relative z-20 -mt-1 w-full overflow-hidden border-t border-[rgba(216,207,183,0.35)] bg-[#D8CFB7] shadow-[0_-8px_20px_rgba(0,0,0,0.18)]"
     >
         <div
-          className="pointer-events-none absolute inset-0 z-0 bg-no-repeat opacity-65"
+          className="pointer-events-none absolute inset-0 z-0 bg-[length:auto_65%] bg-right-bottom bg-no-repeat opacity-70 sm:bg-cover sm:bg-[position:72%_center] lg:bg-center"
           style={{
             backgroundImage: `url(${clubBackground})`,
-            backgroundSize: '130% auto',
-            backgroundPosition: 'right center',
           }}
           aria-hidden="true"
         />
         <div
-          className="pointer-events-none absolute inset-0 z-[1] bg-[linear-gradient(90deg,rgba(232,224,201,0.96)_0%,rgba(232,224,201,0.82)_58%,rgba(232,224,201,0.18)_82%,transparent_100%)]"
+          className="pointer-events-none absolute inset-0 z-[1] bg-[linear-gradient(180deg,rgba(232,224,201,0.98)_0%,rgba(232,224,201,0.82)_42%,rgba(232,224,201,0.68)_72%,rgba(232,224,201,0.82)_100%)] sm:bg-[linear-gradient(90deg,rgba(232,224,201,0.94)_0%,rgba(232,224,201,0.78)_64%,rgba(232,224,201,0.42)_100%)] lg:bg-[linear-gradient(90deg,rgba(232,224,201,0.96)_0%,rgba(232,224,201,0.82)_58%,rgba(232,224,201,0.16)_82%,transparent_100%)]"
           aria-hidden="true"
         />
         <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-8 bg-gradient-to-b from-[#3A2E26]/50 to-transparent" />

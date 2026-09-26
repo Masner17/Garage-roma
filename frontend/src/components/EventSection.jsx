@@ -1,8 +1,9 @@
 import eventBackground from '../assets/EventSection.png'
+import eventIcon from '../assets/Logo.png'
 
 // Este objeto podrá reemplazarse por la respuesta del endpoint de eventos.
 const nextEvent = {
-  title: 'Terapia sobre Ruedas',
+  title: 'Garage Roma',
   subtitle: 'Tacuarembó',
   date: '08 de junio de 2025',
   location: 'Tacuarembó, Uruguay',
@@ -40,15 +41,11 @@ function EventSection() {
         <div>
           <p className="text-xs font-bold uppercase tracking-[0.22em] text-[#c85b24]">Próxima salida</p>
           <h2 className="mt-1 [font-family:'Roboto_Slab',serif] text-4xl font-black leading-none sm:text-5xl">Próximo evento</h2>
-          <div className="mt-6 grid size-52 place-items-center rounded-full border-[7px] border-[#e8e0c9] bg-[#c85b24] text-center shadow-[0_0_0_3px_#172127,0_12px_25px_rgba(0,0,0,.4)]">
-            <div className="grid size-[176px] place-items-center rounded-full border-2 border-[#172127] px-4">
-              <div>
-                <span className="text-4xl" aria-hidden="true">🏍</span>
-                <p className="mt-1 [font-family:'Roboto_Slab',serif] text-xl font-black leading-tight text-[#11191d]">TERAPIA SOBRE RUEDAS</p>
-                <p className="mt-2 text-xs font-black uppercase tracking-widest text-[#fff1d2]">{nextEvent.subtitle}</p>
-              </div>
-            </div>
-          </div>
+          <img
+            src={eventIcon}
+            alt="Garage Roma"
+            className="mt-6 size-60 rounded-full bg-[#0b1115]/35 object-contain p-2 shadow-[0_0_0_3px_#e8e0c9,0_0_0_6px_#172127,0_12px_25px_rgba(0,0,0,.4)]"
+          />
         </div>
 
         <article className="max-w-[430px] rounded-sm bg-[#0b1115]/78 p-6 backdrop-blur-[2px] lg:bg-transparent lg:p-0 lg:backdrop-blur-none">
